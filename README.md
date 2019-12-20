@@ -1,2 +1,1 @@
-# C++
-C++ study
+programming study
