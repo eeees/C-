@@ -1,2 +1,6 @@
-﻿  SW_1976.cpp
-  SW Expert 2단계.vcxproj -> C:\Users\KIM EUNSEO\source\repos\SW Expert 2단계\Debug\SW Expert 2단계.exe
+﻿  SW_1970.cpp
+d:\programming\sw expert 2단계\sw expert 2단계\sw_1970.cpp(7): warning C4101: 'f' :참조되지 않은 지역 변수입니다.
+d:\programming\sw expert 2단계\sw expert 2단계\sw_1970.cpp(7): warning C4101: 'h' :참조되지 않은 지역 변수입니다.
+d:\programming\sw expert 2단계\sw expert 2단계\sw_1970.cpp(7): warning C4101: 't' :참조되지 않은 지역 변수입니다.
+d:\programming\sw expert 2단계\sw expert 2단계\sw_1970.cpp(7): warning C4101: 't_th' :참조되지 않은 지역 변수입니다.
+  SW Expert 2단계.vcxproj -> D:\programming\SW Expert 2단계\Debug\SW Expert 2단계.exe
