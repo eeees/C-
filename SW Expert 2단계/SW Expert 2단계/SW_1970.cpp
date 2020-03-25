@@ -4,12 +4,16 @@ using namespace std;
 
 int main(void)
 {
-	int t_case,money,f,t_th,th,h,t;
+	int t_case, money, f, t_th, th, h, t;
 	cin >> t_case;
 	for (int i = 1; i <= t_case; i++) {
 		cin >> money;
-		//5000원과 500원도 생각해야함!
-		th = (money - ((money / 10000) * 10000)) / 1000;
-		cout << "#" << i << " " << (money / 10000) / 5 << " " << (money / 10000) - 5 * ((money / 10000) / 5) << " " << th << " " << (money - ((money / 10000) * 10000) - (th * 1000)) / 100 << " " << (money % 100) * 10 << endl;
+
+		f = money / 10000;
+		th = (money / 1000) - (f * 10);
+		h = (money / 100) - (f * 100) - (th * 10);
+		t = (money / 10) - (f * 1000) - (th * 100) - (h * 10);
+
+		cout << "#" << i << "\n"<< f / 5 << " " << f % 5 << " " << th / 5 << " " << th % 5 << " " << h / 5 << " " << h % 5 << " " << t / 5 << " " << t % 5 << endl;
 	}return 0;
 }
