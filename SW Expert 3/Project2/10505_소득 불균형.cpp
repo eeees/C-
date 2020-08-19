@@ -32,6 +32,7 @@ int main(void)
 			}
 		}
 		cout << '#' << i + 1 << ' ' << cnt << endl;
+		avg = 0, sum = 0, cnt = 0;
 	}
 	return 0;
 }
