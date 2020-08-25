@@ -27,5 +27,11 @@
     <ClCompile Include="10059_유효기간.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="10032_과자 분배.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="9997_미니멀리즘 시계.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

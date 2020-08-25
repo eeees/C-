@@ -15,9 +15,6 @@ int main(void)
 
 		//vector √ ±‚»≠
 		arr.assign(n, 0);
-	/*	for (int t = 0; t < n; t++) {
-			arr[t] = 0;
-		}*/
 
 		for (int j = 0; j < n; j++) {
 			cin >> num;
