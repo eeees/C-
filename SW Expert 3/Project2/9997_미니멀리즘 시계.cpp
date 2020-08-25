@@ -1,13 +1,10 @@
 #include<iostream>
-#include<vector>
+
 using namespace std;
-
-int hour = 0, min = 0;
-
 
 int main(void)
 {
-	int t_case = 0, k = 0;
+	int t_case = 0, k = 0, hour = 0, min = 0;
 
 	cin >> t_case;
 
