@@ -33,5 +33,11 @@
     <ClCompile Include="9997_미니멀리즘 시계.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="9940_순열1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="9839_최고의 쌍.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
